@@ -1,0 +1,29 @@
+/* Changes body text */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+/* Changes header, footer background colour */
+header, footer {
+    background-color: #D9AD77;
+}
+
+/* Changes header text colour */
+.site-title {
+    color: #f3f0eb;
+}
+
+/* Adds box shadow to image */
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+/* Changes unordered list bullets to squares */
+ul {
+    list-style-type: square;
+}
+
+ul:nth-child(odd) {
+    background-color: #d7aea5;
+}
