@@ -24,6 +24,22 @@ ul {
     list-style-type: square;
 }
 
-ul:nth-child(odd) {
+li:nth-child(odd) {
     background-color: #d7aea5;
+}
+
+a {
+    text-decoration: none;
+    background-color: #D99484;
+}
+
+a:link {
+    border: 2px solid black;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+/* Hover links */
+a:hover {
+    background-color: #e2cac4;
 }
