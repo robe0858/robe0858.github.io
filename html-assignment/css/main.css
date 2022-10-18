@@ -9,10 +9,14 @@ header, footer {
     background-color: #D9AD77;
 }
 
+
+
 /* Changes header text colour */
 .site-title {
     color: #f3f0eb;
 }
+
+
 
 /* Adds box shadow to image */
 #my-image {
@@ -32,6 +36,7 @@ a {
     text-decoration: none;
     background-color: #D99484;
 }
+
 
 a:link {
     border: 2px solid black;
