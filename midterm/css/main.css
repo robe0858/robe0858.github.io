@@ -73,3 +73,34 @@ p {
     float: left;
     padding-right: 20px;
 }
+
+form {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+
+#yourmessage {
+    padding-bottom: 80px;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+#submitbutton {
+    margin-top: 15px;
+    text-transform: uppercase;
+    background-color: #d4efef;
+    text-decoration: none;
+    padding: 15px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+
