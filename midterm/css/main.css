@@ -1,3 +1,5 @@
+/* background image and header */
+
 .site-title {
     color: #fff;
     padding: 80px;
@@ -103,4 +105,8 @@ h3 {
     border: 1px solid black;
 }
 
+/* copyright info */
 
+#copyright {
+    text-align: right;
+}
