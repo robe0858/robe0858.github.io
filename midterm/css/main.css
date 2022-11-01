@@ -1,6 +1,6 @@
 /* background image and header */
 
-.site-title {
+/* .site-title {
     color: #fff;
     background-image: url("../images/lone-starfish-wide.jpg");
     background-repeat: no-repeat;
@@ -20,23 +20,53 @@
 
 h1 {
     padding-bottom: 3rem;
+} */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    width: 1000px;
+}
+
+.container-image, h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    position: absolute;
+    top: 190px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 body {
     background-color: #aad4cf;
 }
 
-.main-body {
+/* .main-body {
     padding: 10px;
     width: 1005px;
     margin: 0 auto;
     background-color: #d4efef;
     font-family: Arial, Helvetica, sans-serif;
    
+} */
+
+.main-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    background-color: #d4efef;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
-    padding: 0 0px 50px 130px;
+    padding: 10px 0px 50px 130px;
+    width: 1000px;
 }
 
 a {
@@ -45,32 +75,40 @@ a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     color: black;
-    border-right: 1px solid black;
     text-align: center;
 }
 
 /* individual nav styling */
 
 .home {
-    padding: 10px 130px 10px 0;
+    padding-right: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-right: 1px solid black;
 }
 
 .story {
-    padding: 10px 130px 10px 130px;
+    padding-right: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 120px;
+    border-right: 1px solid black;;
 }
 
 .contact {
-    border: none;
-    padding: 10px 0px 10px 110px;
+    padding: 95px;
 }
 
 h2 {
     font-size: 2rem;
     font-weight: 400;
+   padding-left: 1rem;
 }
 
 p {
     line-height: 1.5rem;
+    padding: 1rem;
 }
 
 .square-image {
@@ -82,7 +120,8 @@ p {
 
 form {
     border: 1px solid black;
-    padding: 20px;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 input[type=text] {
