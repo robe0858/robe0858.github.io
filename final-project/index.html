@@ -8,6 +8,8 @@
     <title>Final Project</title>
 </head>
 <body>
+    <!-- ********SITE NAV AND HEADER********** -->
+    <!-- top-header div will include: naviagtion and logo, as well as the site header/banner -->
     <div class="top-header">
         <div class="navigation">
             <div class="nav-items">
@@ -22,6 +24,7 @@
                 </ul>
             </div>
         </div>
+        <!-- Banner div will have a background image in CSS -->
         <div class="banner">
             <div class="header-info">
                 <h1>Welcome to Three Star Media</h1>
@@ -30,8 +33,13 @@
             </div>
         </div>
     </div>
+
+    <!-- SITE MAIN -->
     <div class="main">
+
+        <!-- **********ABOUT US SECTION******** -->
         <div id="about-us-outer">
+            <!-- about-us-inner will have max-width -->
             <div class="about-us-inner">
                 <div class="about-us-image">
                     <img src="/images/about-us.jpg" alt="About Us">
@@ -43,11 +51,15 @@
                 </div>
             </div>
         </div>
+
+        <!-- *********** OUR SERVICES SECTION********* -->
         <div id="our-services-outer">
+            <!-- use grid for styling layout here -->
             <div class="our-services-inner">
                 <div class="our-services-heading">
                     <h2>Our Services</h2>
                 </div>
+                <!-- Each of these divs will be a "card", styled/aligned using grid !! **order will change mobile vs desktop** -->
                 <div class="digital">
                     <img src="/images/digital.jpg" alt="digital-transformation">
                     <h3>Digital Transformation</h3>
@@ -80,6 +92,9 @@
                 </div>
             </div>
         </div>
+
+        <!-- ******** VISION SECTION ************ -->
+        <!-- vision section will span 100% and have max-width! -->
         <div id="vision-outer">
             <div class="vision-inner">
                 <h3>Our Vision</h3>
@@ -87,7 +102,10 @@
                 <button>Learn More</button>
             </div>
         </div>
+
+        <!-- ********** OUR TEAM SECTION *************** -->
         <div id="our-team-outer">
+            <!-- our-team-inner will have max-width. Use flex to align: flex base 100% on heading, flex base 50% for img, 50% for txt -->
             <div class="our-team-inner">
                 <div id="our-team-header">
                     <h2>Our Team</h2>
@@ -110,7 +128,10 @@
                 </div>
             </div>
         </div>
+
+        <!-- *********** CONTACT US SECTION ********** -->
         <div class="contact-outer">
+            <!-- contact-inner will have max-width and margin 0 auto -->
             <div class="contact-inner">
                 <div id="contact-us">
                     <h2>Contact Us</h2>
@@ -155,6 +176,8 @@
             </div>
         </div>
     </div>
+
+    <!-- ******** FOOTER ********* -->
     <div class="footer-outer">
         <div class="footer-inner">
             <p>&copy; Copyright Three Star Media, 2020</p>
