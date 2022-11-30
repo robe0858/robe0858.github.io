@@ -56,15 +56,42 @@ input[type=text] {
 .banner {
     background-image: url(/images/main-banner.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin: 0;
 }
 
 .header-info {
-    background-color: #222;
-    opacity: 0.3;
+    background-color: rgba(2, 2, 2, 0.63);
+    padding: 20px;
 }
 
-h1 {
+.header-info h1 {
     font-size: 40px;
     font-weight: 600;
+    line-height: 3rem;
     color: white;
+    margin-bottom: 10%;
+}
+
+.header-info p {
+    color: white;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+.connect-with-us-button a {
+    display: block;
+    background-color: #c78c06;
+    color: #222;
+    text-decoration: none;
+    padding: 5%;
+    margin-right: 60%;
+    margin-top: 5%;
+}
+
+.connect-with-us-button a:hover {
+    background-color: #222;
+    color: #c78c06;
 }
