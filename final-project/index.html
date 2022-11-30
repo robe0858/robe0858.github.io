@@ -9,6 +9,12 @@
     <!-- css reset -->
     <link rel="stylesheet" href="/css/reset.css">
 
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
     <!-- icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -20,15 +26,15 @@
 <body>
     <!-- ********SITE NAV AND HEADER********** -->
     <!-- top-header div will include: naviagtion and logo, as well as the site header/banner -->
-    <div class="top-header">
+    <div class="wrapper top-header">
         <div class="navigation">
             <div class="nav-items">
                 <ul>
                     <li><img src="./images/logo.png" alt="logo"></li>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#about-us-outer">About Us</a></li>
-                    <li><a href="#our-services-outer">Services</a></li>
-                    <li><a href="#our-team-outer">Our Team</a></li>
+                    <li><a href="#about-us-inner">About Us</a></li>
+                    <li><a href="#our-services-inner">Services</a></li>
+                    <li><a href="#our-team-inner">Our Team</a></li>
                     <li><a href="#contact-us">Contact</a></li>
                     <li>Search</li>
                 </ul>
@@ -50,9 +56,9 @@
     <div class="main">
 
         <!-- **********ABOUT US SECTION******** -->
-        <div id="about-us-outer">
+        <div class="wrapper about-us">
             <!-- about-us-inner will have max-width -->
-            <div class="about-us-inner">
+            <div id="about-us-inner">
                 <div class="about-us-image">
                     <img src="./images/about-us.jpg" alt="About Us">
                 </div>
@@ -69,14 +75,14 @@
         </div>
 
         <!-- *********** OUR SERVICES SECTION********* -->
-        <div id="our-services-outer">
+        <div class="wrapper our-services">
             <!-- use grid for styling layout here -->
-            <div class="our-services-inner">
+            <div id="our-services-inner">
                 <div class="our-services-heading">
                     <h2>Our Services</h2>
                 </div>
                 <!-- Each of these divs will be a "card", styled/aligned using grid !! **order will change mobile vs desktop** -->
-                <div class="digital">
+                <div class="card digital">
                     <img src="./images/digital.jpg" alt="digital-transformation">
                     <h3>Digital Transformation</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo velit dolorem fugit et facere
@@ -84,7 +90,7 @@
                         Repudiandae labore consectetur pariatur ipsa consequuntur!</p>
                     <button>Digital Plans <i class="fa fa-caret-right"></i></button>
                 </div>
-                <div class="marketing">
+                <div class="card marketing">
                     <img src="./images/marketing.jpg" alt="marketing">
                     <h3>Marketing</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem neque maxime labore ducimus
@@ -92,7 +98,7 @@
                         voluptate laudantium consectetur minima, commodi odit deleniti.</p>
                     <button>Marketing Plans <i class="fa fa-caret-right"></i></button>
                 </div>
-                <div class="video">
+                <div class="card video">
                     <img src="./images/video.jpg" alt="video">
                     <h3>Video Production</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia harum sunt cumque molestias
@@ -100,7 +106,7 @@
                         recusandae ea officia nihil, necessitatibus maiores.</p>
                     <button>Video Plans <i class="fa fa-caret-right"></i></button>
                 </div>
-                <div class="web">
+                <div class="card web">
                     <img src="./images/web.jpg" alt="web development">
                     <h3>Web Development</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum molestias molestiae unde saepe
@@ -108,7 +114,7 @@
                         et ipsum neque?</p>
                     <button>Web Plans <i class="fa fa-caret-right"></i></button>
                 </div>
-                <div class="print">
+                <div class="card print">
                     <img src="./images/print.jpg" alt="print">
                     <h3>Print</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, veniam molestiae quam deserunt
@@ -122,8 +128,8 @@
         <!-- ******** VISION SECTION ************ -->
         <!-- vision section will span 100% and vision-inner will have max-width -->
         <!-- vision section will have background image in CSS -->
-        <div id="vision-outer">
-            <div class="vision-inner">
+        <div class="wrapper vision">
+            <div id="vision-inner">
                 <h3>Our Vision</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid et adipisci molestias qui fugiat
                     mollitia, maiores quos. Quos officia placeat, voluptas quibusdam fuga impedit aliquam provident
@@ -132,9 +138,9 @@
             </div>
 
             <!-- ********** OUR TEAM SECTION *************** -->
-            <div id="our-team-outer">
+            <div class="wrapper our-team">
                 <!-- our-team-inner will have max-width. Use flex to align: flex base 100% on heading, flex base 50% for img, 50% for txt -->
-                <div class="our-team-inner">
+                <div id="our-team-inner">
                     <div id="our-team-header">
                         <h2>Our Team</h2>
                     </div>
@@ -162,7 +168,7 @@
             </div>
 
             <!-- *********** CONTACT US SECTION ********** -->
-            <div class="contact-outer">
+            <div class="wrapper contact">
                 <!-- contact-inner will have max-width and margin 0 auto -->
                 <div class="contact-inner">
                     <div id="contact-us">
