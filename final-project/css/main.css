@@ -8,6 +8,35 @@
     margin: auto;
 }
 
+.navigation {
+    background-color: #222;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #c78c06;
+}
+
+li a:hover {
+    background-color: #c78c06;
+    color: #222;
+}
+
+.logo {
+    float: left;
+    margin-right: 100%;
+    margin-bottom: 10%;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
