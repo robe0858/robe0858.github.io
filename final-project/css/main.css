@@ -2,6 +2,12 @@
 
 /* default: mobile first styling */
 
+.wrapper {
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
