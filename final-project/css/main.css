@@ -2,6 +2,10 @@
 
 /* default: mobile first styling */
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .wrapper {
     display: block;
     max-width: 1200px;
@@ -37,6 +41,30 @@ li a:hover {
     margin-bottom: 10%;
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
+input[type=text] {
+    width: 80%;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+.fa-search {
+    color: #c78c06;
+    border: 1px solid #c78c06;
+    padding: 1%;
+}
+
+.banner {
+    background-image: url(/images/main-banner.jpg);
+    background-repeat: no-repeat;
+}
+
+.header-info {
+    background-color: #222;
+    opacity: 0.3;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
 }
