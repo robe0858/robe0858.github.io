@@ -95,3 +95,72 @@ input[type=text] {
     background-color: #222;
     color: #c78c06;
 }
+
+.about-us {
+    background-color: #ffe6ac;
+    padding: 5%;
+}
+
+.about-us-image {
+    margin: 0;
+    
+}
+
+.about-us-text h2 {
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.about-us p {
+    line-height: 1.5rem;
+}
+
+.about-us img {
+    width: 100%;
+}
+
+.our-services {
+    padding: 5%;
+}
+
+.our-services-heading {
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.card {
+    background-color: #ffe6ac;
+    margin-bottom: 5%;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2%;
+}
+
+.card p {
+    padding-left: 2%;
+    padding-bottom: 2%;
+    line-height: 1.5rem;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card button {
+    background-color: #222;
+    color: white;
+    border: none;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5%;
+    margin: 5%;
+}
