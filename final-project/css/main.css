@@ -54,7 +54,7 @@ input[type=text] {
 }
 
 .banner {
-    background-image: url(/images/main-banner.jpg);
+    background-image: url("../images/main-banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 10%;
