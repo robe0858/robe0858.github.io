@@ -34,9 +34,9 @@
                     <li><a href="#">Home</a></li>
                     <li><a href="#about-us-inner">About Us</a></li>
                     <li><a href="#our-services-inner">Services</a></li>
-                    <li><a href="#our-team-inner">Our Team</a></li>
+                    <li><a href="#our-team-header">Our Team</a></li>
                     <li><a href="#contact-us">Contact</a></li>
-                    <input type="text" placeholder="Search"><i class="fa fa-search"></i>
+                    <input type="text" placeholder="Search" class="search-bar"><i class="fa fa-search"></i>
                 </ul>
             </div>
         </div>
@@ -47,9 +47,9 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia commodi consectetur consequuntur
                     ipsam ipsa explicabo autem labore? Consequuntur similique, nesciunt praesentium odio, saepe
                     distinctio ipsa nihil impedit sint eos ea.</p>
-                        <div class="connect-with-us-button">
-                            <a href="#contact-us">Connect With Us <i class="fa fa-caret-right"></i></a>
-                        </div>
+                <div class="connect-with-us-button">
+                    <a href="#contact-us">Connect With Us <i class="fa fa-caret-right"></i></a>
+                </div>
             </div>
         </div>
     </div>
@@ -144,14 +144,15 @@
             </div>
         </div>
 
-            <!-- ********** OUR TEAM SECTION *************** -->
-            <!-- two classes, main wrapper class and main our-team div class -->
-            <div class="wrapper our-team">
-                <!-- our-team-inner will have max-width. Use flex to align: flex base 100% on heading, flex base 50% for img, 50% for txt -->
-                <div id="our-team-inner">
-                    <div id="our-team-header">
-                        <h2>Our Team</h2>
-                    </div>
+        <!-- ********** OUR TEAM SECTION *************** -->
+        <!-- two classes, main wrapper class and main our-team div class -->
+        <div class="wrapper our-team">
+            <!-- our-team-inner will have max-width. Use flex to align: flex base 100% on heading, flex base 50% for img, 50% for txt -->
+            <div class="our-team-inner">
+                <div id="our-team-header">
+                    <h2>Our Team</h2>
+                </div>
+                <div class="john-card">
                     <div class="john-img">
                         <img src="./images/john.jpg" alt="John">
                     </div>
@@ -162,6 +163,8 @@
                             beatae nesciunt corrupti alias praesentium eligendi assumenda nostrum molestias maiores nam,
                             voluptas, laudantium impedit. Veritatis, repellendus corrupti?</p>
                     </div>
+                </div>
+                <div class="bob-card">
                     <div class="bob-img">
                         <img src="./images/bob.jpg" alt="Bob Rite">
                     </div>
@@ -174,57 +177,58 @@
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- *********** CONTACT US SECTION ********** -->
-            <!-- two classes, main wrapper class and main contact div class -->
-            <div class="wrapper contact">
-                <!-- contact-inner will have max-width and margin 0 auto -->
-                <div id="contact-us">
-                    <div class="contact-us-header">
-                        <h2>Contact Us</h2>
-                    </div>
-                    <div class="form">
-                        <h3>Send us a message</h3>
-                        <form action="#" method="get">
-                            <label for="fullname">Full Name</label>
-                            <input type="text" id="fullname">
-                            <label for="email">Email</label>
-                            <input type="text" id="email">
-                            <label for="message">Message</label>
-                            <input type="text" id="message">
-                            <button type="submit">Send</button>
-                        </form>
-                    </div>
-                    <div class="map">
-                        <h3>Location</h3>
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9447385676062!2d-75.75712548401063!3d45.349927779099914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669656676927!5m2!1sen!2sca"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="hours">
-                        <h3>Hours of operation</h3>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Days</th>
-                                    <th>Hours</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Monday-Friday</td>
-                                    <td>9 AM - 6 PM</td>
-                                </tr>
-                                <tr>
-                                    <td>Saturday - Sunday</td>
-                                    <td>Closed</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+        <!-- *********** CONTACT US SECTION ********** -->
+        <!-- two classes, main wrapper class and main contact div class -->
+        <div class="wrapper contact">
+            <!-- contact-inner will have max-width and margin 0 auto -->
+            <div id="contact-us">
+                <div class="contact-us-header">
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="form">
+                    <h3 class="contact-form-header">Send us a message</h3>
+                    <form action="#" method="get">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname">
+                        <label for="email">Email</label>
+                        <input type="text" id="email">
+                        <label for="message">Message</label>
+                        <input type="text" id="message">
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="hours">
+                    <h3>Hours of operation</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Days</th>
+                                <th>Hours</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Monday-Friday</td>
+                                <td>9 AM - 6 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday - Sunday</td>
+                                <td>Closed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="map">
+                    <h3>Location</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9447385676062!2d-75.75712548401063!3d45.349927779099914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669656676927!5m2!1sen!2sca"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
+        </div>
 
         <!-- ******** FOOTER ********* -->
         <div class="wrapper footer">

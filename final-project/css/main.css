@@ -41,7 +41,7 @@ li a:hover {
     margin-bottom: 10%;
 }
 
-input[type=text] {
+.search-bar {
     width: 80%;
     margin-bottom: 5%;
     font-size: 20px;
@@ -137,7 +137,7 @@ input[type=text] {
     margin-bottom: 5%;
 }
 
-h3 {
+.card h3 {
     font-size: 30px;
     font-weight: 700;
     padding-top: 1.5rem;
@@ -162,7 +162,8 @@ h3 {
     font-size: 20px;
     text-decoration: none;
     padding: 5%;
-    margin: 5%;
+    margin-bottom: 5%;
+    margin-left: 2%;
 }
 
 .vision {
@@ -174,14 +175,17 @@ h3 {
     color: white;
 }
 
-h2 {
-    font-size: 40px;
-}
-
 #vision-inner {
     max-width: 0 auto;
     padding: 3%;
     line-height: 1.5rem;
+}
+
+.vision h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .vision button {
@@ -192,4 +196,145 @@ h2 {
     margin-top: 3%;
     padding: 4%;
     font-size: 20px;
+}
+
+#our-team-header h2 {
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.our-team {
+    padding: 5%;
+}
+
+.our-team-inner {
+    width: 100%;
+}
+
+
+.john-card {
+    max-width: 100%;
+    background-color: #ffe6ac;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+
+.john-card img {
+    width: 100%;
+}
+
+.john-card h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 2%;
+}
+
+.john-card p {
+    margin: 2%;
+}
+
+.subheading {
+    font-weight: 600;
+    border-bottom: 2px solid #c78c06;
+    margin-bottom: 3%;
+}
+
+.our-team p {
+    line-height: 1.5rem;
+}
+
+.bob-img {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.bob-card {
+    max-width: 100%;
+    background-color: #ffe6ac;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+
+.bob-card img {
+    width: 100%;
+}
+
+.bob-card h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 2%;
+}
+
+.bob-card p {
+    margin: 2%;
+}
+
+.contact {
+    padding: 5%;
+}
+
+.contact-us-header {
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 5%;
+}
+
+.contact-form-header {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+.form input {
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+#message {
+    padding-bottom: 80px;
+}
+
+.form button {
+    background-color: #222;
+    color: #c78c06;
+    border: none;
+    font-size: 20px;
+    padding: 1%;
+    margin-bottom: 5%;
+}
+
+.hours h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 3%;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+th {
+    background-color: #ffe6ac;
+}
+
+.map h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+.footer {
+    background-color: #222;
+    color: #c78c06;
+    padding: 5%;
+    line-height: 2rem;
 }
