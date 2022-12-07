@@ -26,7 +26,7 @@
 <body>
     <!-- ********SITE NAV AND HEADER********** -->
     <!-- top-header div will include: naviagtion and logo, as well as the site header/banner -->
-    <div class="wrapper top-header">
+    <div class="top-header">
         <div class="navigation">
             <div class="nav-items">
                 <ul>
@@ -41,7 +41,7 @@
             </div>
         </div>
         <!-- Banner div will have a background image in CSS -->
-        <div class="wrapper banner">
+        <div class="banner">
             <div class="header-info">
                 <h1>Welcome to Three Star Media</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia commodi consectetur consequuntur
@@ -60,7 +60,7 @@
 
         <!-- **********ABOUT US SECTION******** -->
         <!-- two classes, main wrapper class and main about-us div -->
-        <div class="wrapper about-us">
+        <div class="about-us">
             <!-- about-us-inner will have max-width -->
             <div id="about-us-inner">
                 <div class="about-us-image">
@@ -134,7 +134,7 @@
         <!-- ******** VISION SECTION ************ -->
         <!-- vision section will span 100% and vision-inner will have max-width -->
         <!-- vision section will have background image in CSS -->
-        <div class="wrapper vision">
+        <div class="vision">
             <div id="vision-inner">
                 <h3>Our Vision</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid et adipisci molestias qui fugiat
@@ -148,14 +148,15 @@
         <!-- two classes, main wrapper class and main our-team div class -->
         <div class="wrapper our-team">
             <!-- our-team-inner will have max-width. Use flex to align: flex base 100% on heading, flex base 50% for img, 50% for txt -->
+            <div id="our-team-header">
+                <h2>Our Team</h2>
+            </div>
             <div class="our-team-inner">
-                <div id="our-team-header">
-                    <h2>Our Team</h2>
-                </div>
-                <div class="john-card">
-                    <div class="john-img">
+
+                <div class="john-card team">
+                    <!-- <div class="john-img"> -->
                         <img src="./images/john.jpg" alt="John">
-                    </div>
+                    <!-- </div> -->
                     <div class="john-txt">
                         <h3>John Doe</h3>
                         <p class="subheading">CEO and Co-owner</p>
@@ -164,10 +165,10 @@
                             voluptas, laudantium impedit. Veritatis, repellendus corrupti?</p>
                     </div>
                 </div>
-                <div class="bob-card">
-                    <div class="bob-img">
+                <div class="bob-card team">
+                    <!-- <div class="bob-img"> -->
                         <img src="./images/bob.jpg" alt="Bob Rite">
-                    </div>
+                    <!-- </div> -->
                     <div class="bob-txt">
                         <h3>Bob Rite</h3>
                         <p class="subheading">CFO and Co-owner</p>
