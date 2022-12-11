@@ -484,3 +484,33 @@ th {
         padding: 0;
     }
 
+    .contact-us-header {
+        grid-area: header;
+        margin: 0;
+    }
+
+    .form {
+        grid-area: form;
+        margin: 0;
+    }
+
+    .hours {
+        grid-area: hours;
+        margin: 0;
+    }
+
+    .map {
+        grid-area: location;
+        margin: 0;
+    }
+
+    #contact-us {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "header header"
+        "form location"
+        "hours hours"
+        ;
+    }
