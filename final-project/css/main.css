@@ -6,6 +6,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* this wrapper styling will give all divs with wrapper class a margin on left and right*/
 .wrapper {
     display: block;
     max-width: 1200px;
@@ -59,14 +60,12 @@ li a:hover {
     background-size: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
-
-
 }
 
+/* 0.63 will give background colour proper transparency */
 .header-info {
     background-color: rgba(2, 2, 2, 0.63);
     padding: 20px;
-
 }
 
 .header-info h1 {
@@ -84,6 +83,7 @@ li a:hover {
     margin: auto;
 }
 
+/* this font-size will be slightly bigger for  desktop styling */
 .connect-with-us-button a {
     display: block;
     background-color: #c78c06;
@@ -94,6 +94,7 @@ li a:hover {
     margin-top: 5%;
 }
 
+/* this hover is just for fun, not in the mockup */
 .connect-with-us-button a:hover {
     background-color: #222;
     color: #c78c06;
@@ -421,10 +422,12 @@ th {
         column-gap: 10px;
         row-gap: 10px;
         grid-template-areas:
-        "heading heading heading heading heading heading"
-        "digital digital digital marketing marketing marketing"
-        "video video web web print print";
+            "heading heading heading heading heading heading"
+            "digital digital digital marketing marketing marketing"
+            "video video web web print print";
     }
+
+    /* Using grid for alignment, the following is for grid-areas: */
 
     .our-services-heading {
         grid-area: heading;
@@ -465,6 +468,8 @@ th {
         margin-top: -40px;
     }
 
+    /* was going to use flex but using grid instead, order: 2 to flip photo and txt*/
+
     .team {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -483,6 +488,8 @@ th {
         margin: 0;
         padding: 0;
     }
+
+    /* using grid to align contact us header, form and map, the following is for grid-areas */
 
     .contact-us-header {
         grid-area: header;
@@ -507,13 +514,15 @@ th {
     #contact-us {
         display: grid;
         grid-template-columns: 1fr 1fr;
+
+        /* 0.5fr for header so that it is thinner than map and form */
         grid-template-rows: 0.5fr 2fr 2fr;
         column-gap: 50px;
         row-gap: 5px;
-        grid-template-areas: 
-        "header header"
-        "form location"
-        "hours hours"
+        grid-template-areas:
+            "header header"
+            "form location"
+            "hours hours"
         ;
     }
 
